@@ -1,0 +1,22 @@
+body{
+    background-size: cover;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px pink;}
+    to{box-shadow: 1px 1px 38px purple;}
+}
+
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: aqua;
+}
